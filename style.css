@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp3277659.jpg);
+    background-size: cover;
+}
+h1 {
+    font-size: 5.5rem;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.item {
+    padding: 0;
+    outline: none;
+    width: 18rem;
+    height: 3.6rem;
+    text-align: center;
+}
+select {
+    font-size: 2rem;
+    border: solid black 0.2rem;
+    background-color: coral;
+    margin-bottom: 3rem;
+}
+input {
+    font-size: 2rem;
+    border: black solid 0.2rem;
+    border-radius: 0.5rem;
+    min-width: 0;
+    min-height: 0;
+    margin-bottom: 3rem;
+}
+button {
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    border: black solid 0.2rem;
+    background-color: pink;
+    margin-bottom: 2rem;
+
+}
+button:hover {
+    background-color: black;
+    border: pink solid 0.2rem;
+    color: pink;
+    cursor: pointer;
+}
+p {
+    size: 20%;
+    font-size: 2rem;
+    font-family: 'Caveat Brush', cursive;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    width: 23%;
+    margin: 0 38% 2% 38%;
+    padding: 0;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+img {
+    text-align: center;
+    margin: 2rem 0;
+}
+.img-contain {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
